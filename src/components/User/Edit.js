@@ -35,7 +35,7 @@ website:""
     },[]);
 
     const loadUser= async ()=>{
- const result=await axios.get(`https://pocwebapi.azure-api.net/getuserlist/${id}`,user);
+ const result=await axios.get(`https://my-json-server.typicode.com/Masood185/masoodfakeapi/users/${id}`,user);
 SetUser(result.data);
 
     }
@@ -43,7 +43,7 @@ SetUser(result.data);
     const onSubmit= async e=>{
  e.preventDefault();
 
- await axios.put(`https://pocwebapi.azure-api.net/getuserlist/${id}`,user);
+ await axios.put(`https://my-json-server.typicode.com/Masood185/masoodfakeapi/users/${id}`,user);
  history.push("/Home");
 
     }

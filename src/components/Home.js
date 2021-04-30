@@ -17,13 +17,13 @@ const loadUser = async () => {
 
   $("nav").show();
  
-    const result = await axios.get("https://pocwebapi.azure-api.net/getuserlist");
+    const result = await axios.get("https://my-json-server.typicode.com/Masood185/masoodfakeapi/users");
     setUser(result.data.reverse());
     $('#myTable').DataTable();
   };
 
   const deleteUser = async id => {
-    await axios.delete(`https://pocwebapi.azure-api.net/getuserlist/${id}`);
+    await axios.delete(`https://my-json-server.typicode.com/Masood185/masoodfakeapi/users/${id}`);
     loadUser();
   };
 
