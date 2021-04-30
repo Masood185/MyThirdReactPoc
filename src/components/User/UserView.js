@@ -21,7 +21,7 @@ const UserView=()=>{
     });
 
     const loadUser=async ()=>{
-      const result=await axios.get(`http://testingapi.ap-south-1.elasticbeanstalk.com/api/products/${id}`,user);
+      const result=await axios.get(`https://pocwebapi.azure-api.net/getuserlist/${id}`,user);
       SetUser(result.data);
     }
 
