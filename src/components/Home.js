@@ -17,13 +17,14 @@ const loadUser = async () => {
 
   $("nav").show();
  
-    const result = await axios.get("https://my-json-server.typicode.com/Masood185/masoodfakeapi/users");
+    const result = await axios.get("https://masoodtestapi.azurewebsites.net/api/products");
+    debugger
     setUser(result.data.reverse());
     $('#myTable').DataTable();
   };
 
   const deleteUser = async id => {
-    await axios.delete(`https://my-json-server.typicode.com/Masood185/masoodfakeapi/users/${id}`);
+    await axios.delete(`https://masoodtestapi.azurewebsites.net/api/products/${id}`);
     loadUser();
   };
 

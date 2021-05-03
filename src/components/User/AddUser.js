@@ -21,7 +21,7 @@ const AddUser = () => {
 
   const onSubmit = async e => {
     e.preventDefault();
-    await axios.post("https://pocwebapi.azure-api.net/getuserlist", user);
+    await axios.post("https://masoodtestapi.azurewebsites.net/api/products/", user);
     history.push("/Home");
   };
 

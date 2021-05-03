@@ -21,7 +21,7 @@ const UserView=()=>{
     });
 
     const loadUser=async ()=>{
-      const result=await axios.get(`https://pocwebapi.azure-api.net/getuserlist/${id}`,user);
+      const result=await axios.get(`https://masoodtestapi.azurewebsites.net/api/products/${id}`,user);
       SetUser(result.data);
     }
 
