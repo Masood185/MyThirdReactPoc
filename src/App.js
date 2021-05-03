@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/AddUser" component={AddUser} />
         <Route exact path="/user/edit/:id" component={Edit} />
         <Route exact path="/user/userview/:id" component={UserView}/>
-        <Route component={NotFound}/>
+        <Route component={Login}/>
       </Switch>
 
 
