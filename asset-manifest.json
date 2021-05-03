@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cd345c6.chunk.css",
-    "main.js": "/static/js/main.1505ea50.chunk.js",
-    "main.js.map": "/static/js/main.1505ea50.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.30ddf165.js",
-    "runtime-main.js.map": "/static/js/runtime-main.30ddf165.js.map",
-    "static/css/2.639c579c.chunk.css": "/static/css/2.639c579c.chunk.css",
-    "static/js/2.53beb816.chunk.js": "/static/js/2.53beb816.chunk.js",
-    "static/js/2.53beb816.chunk.js.map": "/static/js/2.53beb816.chunk.js.map",
-    "static/js/3.aca19fd5.chunk.js": "/static/js/3.aca19fd5.chunk.js",
-    "static/js/3.aca19fd5.chunk.js.map": "/static/js/3.aca19fd5.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.639c579c.chunk.css.map": "/static/css/2.639c579c.chunk.css.map",
-    "static/css/main.1cd345c6.chunk.css.map": "/static/css/main.1cd345c6.chunk.css.map",
-    "static/js/2.53beb816.chunk.js.LICENSE.txt": "/static/js/2.53beb816.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/MyThirdReactPoc/static/css/main.1cd345c6.chunk.css",
+    "main.js": "/MyThirdReactPoc/static/js/main.e6dc2a99.chunk.js",
+    "main.js.map": "/MyThirdReactPoc/static/js/main.e6dc2a99.chunk.js.map",
+    "runtime-main.js": "/MyThirdReactPoc/static/js/runtime-main.9f5f45e8.js",
+    "runtime-main.js.map": "/MyThirdReactPoc/static/js/runtime-main.9f5f45e8.js.map",
+    "static/css/2.639c579c.chunk.css": "/MyThirdReactPoc/static/css/2.639c579c.chunk.css",
+    "static/js/2.53beb816.chunk.js": "/MyThirdReactPoc/static/js/2.53beb816.chunk.js",
+    "static/js/2.53beb816.chunk.js.map": "/MyThirdReactPoc/static/js/2.53beb816.chunk.js.map",
+    "static/js/3.aca19fd5.chunk.js": "/MyThirdReactPoc/static/js/3.aca19fd5.chunk.js",
+    "static/js/3.aca19fd5.chunk.js.map": "/MyThirdReactPoc/static/js/3.aca19fd5.chunk.js.map",
+    "index.html": "/MyThirdReactPoc/index.html",
+    "static/css/2.639c579c.chunk.css.map": "/MyThirdReactPoc/static/css/2.639c579c.chunk.css.map",
+    "static/css/main.1cd345c6.chunk.css.map": "/MyThirdReactPoc/static/css/main.1cd345c6.chunk.css.map",
+    "static/js/2.53beb816.chunk.js.LICENSE.txt": "/MyThirdReactPoc/static/js/2.53beb816.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/MyThirdReactPoc/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.30ddf165.js",
+    "static/js/runtime-main.9f5f45e8.js",
     "static/css/2.639c579c.chunk.css",
     "static/js/2.53beb816.chunk.js",
     "static/css/main.1cd345c6.chunk.css",
-    "static/js/main.1505ea50.chunk.js"
+    "static/js/main.e6dc2a99.chunk.js"
   ]
 }
